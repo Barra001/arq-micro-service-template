@@ -4,7 +4,7 @@ import { PlataformActivitiesFactory } from "./plataform_activity/plataform_activ
 import { Readable } from "stream";
 import { logWorker } from "./plataform_activity/loggers/loggingWorker";
 
-// eslint-disable-next-line @typescript-eslint/no-floating-promises
+
 (async (): Promise<void> => {
   const loggerService = new Readable({
     read(): void {
