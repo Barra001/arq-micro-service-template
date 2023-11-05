@@ -7,7 +7,7 @@ import { LogType } from "./../../plataform_activity/entities/log-event";
 
 export class AdminsService implements AdminsServiceInterface {
   constructor(
-    private readonly adminRepository,
+    private readonly adminRepository: AdminsRepositoryInterface,
     private readonly plataformActivity: PlataformActivitiesServiceInterface
   ) {}
 
