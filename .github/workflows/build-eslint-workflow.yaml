@@ -1,4 +1,4 @@
-name: Build and test node backend
+name: Build and Eslint workflow
 
 on:
   push:
@@ -37,7 +37,7 @@ jobs:
         run: npm run build
         working-directory: .
 
-      - name: eslint
+      - name: Eslint rules
         uses: icrawl/action-eslint@v1
 
 
